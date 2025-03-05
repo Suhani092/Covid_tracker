@@ -62,7 +62,7 @@ root.geometry("600x400")
 root.title("Covid-19 Data")
 
 # Replace the path below with the path to your image
-img_path = r"C:\covid data visualizer\covid19.jpg" 
+img_path = r"C:\Users\sohani\OneDrive\Documents\GitHub\Covid_tracker\covid data visualizer\covid19.jpg"  
 img = ImageTk.PhotoImage(Image.open(img_path))
 panel = Label(root, image=img)
 panel.pack(fill="both", expand="no")
